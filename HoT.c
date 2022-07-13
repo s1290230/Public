@@ -3,7 +3,8 @@
 
 int main(){
   int i,head=0,tail=0,num;
-  
+
+  //コイントス
   printf("Tossing a coin...\n");
   
   for(i=0;i<3;i++){
@@ -18,5 +19,9 @@ int main(){
     }
   }
   printf("Heads: %d, Tails: %d\n",head,tail);
+
+  //勝敗
+  if(head>tail) printf("You won\n");
+  else printf("You lost\n");
   return 0;
 }
