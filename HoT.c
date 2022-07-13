@@ -4,7 +4,7 @@
 int main(){
   int i,head=0,tail=0,num;
 
-  //コイントス
+  //コイントスのパート
   printf("Tossing a coin...\n");
   
   for(i=0;i<3;i++){
