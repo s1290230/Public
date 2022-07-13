@@ -3,6 +3,12 @@
 
 int main(){
   int i,head=0,tail=0,num;
+  
+  //名前を聞くパート
+  char name[10];
+  printf("Who are you?\n> ");
+  scanf("%s",&name);
+  printf("Hello, %s\n",name);
 
   //コイントスのパート
   printf("Tossing a coin...\n");
