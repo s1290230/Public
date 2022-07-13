@@ -9,7 +9,7 @@ int main(){
   printf("Who are you?\n> ");
   scanf("%s",&name);
   printf("Hello, %s\n",name);
-  
+
   //コイントスのパート
   printf("Tossing a coin...\n");
   
@@ -25,5 +25,9 @@ int main(){
     }
   }
   printf("Heads: %d, Tails: %d\n",head,tail);
+
+  //勝敗
+  if(head>tail) printf("You won\n");
+  else printf("You lost\n");
   return 0;
 }
